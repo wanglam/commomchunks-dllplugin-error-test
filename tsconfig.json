@@ -1,0 +1,30 @@
+{
+	"compilerOptions": {
+		"outDir": "./dist",
+		"sourceMap": true,
+		"noImplicitAny": true,
+		"noImplicitReturns": true,
+		"module": "es6",
+		"target": "ES5",
+		"jsx": "react",
+		"removeComments": true,
+		"experimentalDecorators": true,
+		"baseUrl": "src",
+		"lib":[
+			"dom",
+			"es5",
+			"scripthost",
+			"es6",
+			"es2016.array.include"
+		],
+		"moduleResolution": "node"
+	},
+	"include": [
+		"./src/**/*.ts",
+		"./src/**/*.tsx"
+	],
+	"exclude": [
+		"node_modules",
+		"./dist"
+	]
+}
